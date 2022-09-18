@@ -7,9 +7,8 @@ os.environ.setdefault("DJANGO_SETTINGS_MODULE", "backend.settings")
 django.setup()
 
 from app.models import Lunch
-from django.contrib.auth.models import User
 
-with open('lunch.json') as f:
+with open('lunch.json', encoding='UTF-8') as f:
     json_arr = json.load(f)
 
     for data in json_arr:
