@@ -51,7 +51,7 @@ App.js, Lunch.js의 빈칸을 채워주세요
 
 |HTTP|항목|TYPE(길이)|Description|
 |----|----|--|-------|
-|Header|Authorization||입력값: Token \<token\>|
+|Header|Authorization||입력값: "Token \<token\>" (두 문자 사이에 한칸 띄우기)|
 |Parameter|date|char(4)||
 
 2-2) RESPONSE
@@ -60,4 +60,10 @@ App.js, Lunch.js의 빈칸을 채워주세요
 |Body|id|int(1)|고유값|
 |Body|date|char(4)|날짜|
 |Body|menu|char|점심 메뉴|
+
+
+### REST API에 관한 참고 자료
+[아마존 공식 문서](https://aws.amazon.com/ko/what-is/api/)
+[비개발자를 위한 API 설명](https://www.joinc.co.kr/w/Site/Network_Programing/AdvancedComm/HTTP#google_vignette)
+[Representation의 의미: ](https://blog.wishket.com/api%EB%9E%80-%EC%89%BD%EA%B2%8C-%EC%84%A4%EB%AA%85-%EA%B7%B8%EB%A6%B0%ED%81%B4%EB%9D%BC%EC%9D%B4%EC%96%B8%ED%8A%B8)
 
