@@ -23,7 +23,7 @@ npm start
 
 App.js, Lunch.js의 빈칸을 채워주세요
 
-
+<br/>
 
 ### API 가이드
 #### 1. Token 발행
@@ -42,6 +42,7 @@ App.js, Lunch.js의 빈칸을 채워주세요
 |----|----|--|-------|
 |Body|token||Lunch data 요청에 사용할 token 값이다|
 
+<br/>
 
 #### 2. Lunch data 조회 요청
 2-1) REQUEST
@@ -61,6 +62,7 @@ App.js, Lunch.js의 빈칸을 채워주세요
 |Body|date|char(4)|날짜|
 |Body|menu|char|점심 메뉴|
 
+<br/>
 
 ### REST API에 관한 참고 자료
 - [아마존 공식 문서](https://aws.amazon.com/ko/what-is/api/)
