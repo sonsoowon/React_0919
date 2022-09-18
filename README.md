@@ -2,7 +2,7 @@
 
 ### 실습 환경 구성
 ```
-git clone 
+git clone https://github.com/sonsoowon/React_0919.git
 
 # 백엔드 환경 설정
 cd React_0919
