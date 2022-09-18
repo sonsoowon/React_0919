@@ -26,7 +26,7 @@ App.js, Lunch.js의 빈칸을 채워주세요
 
 
 ### API 가이드
-1. Token 발행
+#### 1. Token 발행
 1-1) REQUEST
 - URL: http://localhost:8000/api-token-auth/
   (http://localhost:8000 생략)
@@ -43,7 +43,7 @@ App.js, Lunch.js의 빈칸을 채워주세요
 |Body|token||Lunch data 요청에 사용할 token 값이다|
 
 
-2. Lunch data 조회 요청
+#### 2. Lunch data 조회 요청
 2-1) REQUEST
 - URL: http://localhost:8000/lunchs
   (http://localhost:8000 생략)
@@ -63,7 +63,7 @@ App.js, Lunch.js의 빈칸을 채워주세요
 
 
 ### REST API에 관한 참고 자료
-[아마존 공식 문서](https://aws.amazon.com/ko/what-is/api/)
-[비개발자를 위한 API 설명](https://www.joinc.co.kr/w/Site/Network_Programing/AdvancedComm/HTTP#google_vignette)
-[Representation의 의미: ](https://blog.wishket.com/api%EB%9E%80-%EC%89%BD%EA%B2%8C-%EC%84%A4%EB%AA%85-%EA%B7%B8%EB%A6%B0%ED%81%B4%EB%9D%BC%EC%9D%B4%EC%96%B8%ED%8A%B8)
-
+- [아마존 공식 문서](https://aws.amazon.com/ko/what-is/api/)
+- [HTTP 프로토콜](https://www.joinc.co.kr/w/Site/Network_Programing/AdvancedComm/HTTP#google_vignette)
+- [비개발자를 위한 API](https://blog.wishket.com/api%EB%9E%80-%EC%89%BD%EA%B2%8C-%EC%84%A4%EB%AA%85-%EA%B7%B8%EB%A6%B0%ED%81%B4%EB%9D%BC%EC%9D%B4%EC%96%B8%ED%8A%B8)
+- [REST의 Representation이란 무엇인가](https://blog.npcode.com/2017/04/03/rest%EC%9D%98-representation%EC%9D%B4%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80/)
