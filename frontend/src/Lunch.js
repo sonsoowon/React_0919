@@ -6,7 +6,7 @@ const Lunch = ({lunchs}) => {
         <div>
             {
                 lunchs ? lunchs.map(lunch => {
-                    
+                    // 3. 받아온 점심 데이터 렌더링하기
                 }) : null
             }
         </div>

@@ -8,11 +8,11 @@ function App() {
     const [lunchs, setLunchs] = useState('');
 
     const getToken = async () => {
-      
+      // 1. django에서 createsuperuser로 생성한 username과 password를 이용해 토큰 받아오기
     }
 
     const getLunchs  = async () => {
-      
+      // 2. 오늘 먹은 점심 메뉴 받아오기
     }
 
 
