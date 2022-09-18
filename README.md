@@ -2,8 +2,9 @@
 
 ### 실습 환경 구성
 ```
-git clone
+git clone 
 
+# 백엔드 환경 설정
 cd React_0919
 cd backend
 pipenv install -r requirements.txt
@@ -13,8 +14,16 @@ python json_to_db.py
 python manage.py createsuperuser
 python manage.py runserver
 
+# localhost:8000 열어놓은 상태로 새로운 터미널창 열기
+cd ../frontend # frontend 경로로 이동
+npm install
+npm start
 
 ```
+
+App.js, Lunch.js의 빈칸을 채워주세요
+
+
 
 ### API 가이드
 1. Token 발행
@@ -42,7 +51,7 @@ python manage.py runserver
 
 |HTTP|항목|TYPE(길이)|Description|
 |----|----|--|-------|
-|Header|Authorization||입력값: Token <token>|
+|Header|Authorization||입력값: Token \<token\>|
 |Parameter|date|char(4)||
 
 2-2) RESPONSE
