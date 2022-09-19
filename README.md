@@ -15,7 +15,7 @@ python manage.py createsuperuser
 python manage.py runserver
 
 # localhost:8000 열어놓은 상태로 새로운 터미널창 열기
-cd ../frontend # frontend 경로로 이동
+cd frontend
 npm install
 npm start
 
