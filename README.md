@@ -53,7 +53,7 @@ App.js, Lunch.js의 빈칸을 채워주세요
 |HTTP|항목|TYPE(길이)|Description|
 |----|----|--|-------|
 |Header|Authorization||입력값: "Token \<token\>" (두 문자 사이에 한칸 띄우기)|
-|Parameter|date|char(4)||
+|Parameter|date|char(4)|MMDD|
 
 2-2) RESPONSE
 |HTTP|항목|TYPE(길이)|Description|
