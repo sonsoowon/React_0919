@@ -69,3 +69,29 @@ App.js, Lunch.js의 빈칸을 채워주세요
 - [HTTP 프로토콜](https://www.joinc.co.kr/w/Site/Network_Programing/AdvancedComm/HTTP#google_vignette)
 - [비개발자를 위한 API](https://blog.wishket.com/api%EB%9E%80-%EC%89%BD%EA%B2%8C-%EC%84%A4%EB%AA%85-%EA%B7%B8%EB%A6%B0%ED%81%B4%EB%9D%BC%EC%9D%B4%EC%96%B8%ED%8A%B8)
 - [REST의 Representation이란 무엇인가](https://blog.npcode.com/2017/04/03/rest%EC%9D%98-representation%EC%9D%B4%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80/)
+
+
+<br/>
+#### 실습 정답
+```
+# 1.
+try {
+    const res = await axios.post('api-token-auth/', {
+        username: <username>,
+        password: <password>});
+    setToken(res.data.token);
+} catch (e) {
+    console.log(e);
+}
+
+# 2.
+const res = await axios.get('/lunchs', {
+          headers: {Authorization: `Token ${token}`},
+          params: {date: '0919'}
+      });
+setLunchs(res.data);
+
+# 3.
+return <p key={lunch.id}>{lunch.menu}</p>
+
+```
