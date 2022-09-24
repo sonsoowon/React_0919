@@ -72,9 +72,10 @@ App.js, Lunch.js의 빈칸을 채워주세요
 
 
 <br/>
+
 #### 실습 정답
 ```
-# 1.
+1.
 try {
     const res = await axios.post('api-token-auth/', {
         username: <username>,
@@ -84,14 +85,14 @@ try {
     console.log(e);
 }
 
-# 2.
+2.
 const res = await axios.get('/lunchs', {
           headers: {Authorization: `Token ${token}`},
           params: {date: '0919'}
       });
 setLunchs(res.data);
 
-# 3.
+3.
 return <p key={lunch.id}>{lunch.menu}</p>
 
 ```
